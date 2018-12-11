@@ -1,0 +1,517 @@
+
+
+
+
+
+
+
+		
+
+ 
+
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<title>Servizio AUnicaLogin - Politecnico di Milano</title>
+		
+
+
+ 
+
+
+
+
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/assets/ateneo2014.css.jsp?v=5&lang=it" type="text/css" />
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/ajax/libs/jqueryui/1.12.1/themes/polij.css.jsp?v=5&lang=it" type="text/css" />
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/assets/desktop.css.jsp?v=5&lang=it" type="text/css" />
+
+
+
+
+ 
+
+<link rel="stylesheet" type="text/css" href="/aunicalogin/assets/css/base.css?__load_ts=1544426757492" />
+<link rel="stylesheet" type="text/css" href="/aunicalogin/assets/css/desktop.css?__load_ts=1544426757492" />
+
+
+<link rel="stylesheet" type="text/css" href="/aunicalogin/assets/css/spid-sp-access-button.min.css?__load_ts=1544426757492" />
+<link rel="stylesheet" type="text/css" href="/aunicalogin/assets/css/spid-login.css?__load_ts=1544426757492" />
+
+
+ 
+<script src="https://webcommons.polimi.it/webcommons/ajax/libs/jqueryui/1.12.1/ui.js.jsp?v=5&lang=it" type="text/javascript"></script>
+<script src="https://webcommons.polimi.it/webcommons/ajax/libs/desktop.js.jsp?v=5&lang=it" type="text/javascript"></script>
+ 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#loading').remove();
+	});
+</script>
+
+
+	</head>
+	<body>
+		<div id="jafBodyContainer">
+			<div id="polijPageHeader">
+				
+
+
+
+
+<table id="poliheader" >
+	<tr>
+		<td class="jaf-text-align-left td-logo-polimi" >
+			<a title="polimi.it" href="http://www.polimi.it">
+				<img class="logo-polimi" alt="logo-polimi" src="https://webcommons.polimi.it/webcommons/assets/logo_polimi_testo.png" />
+			</a>
+			<div id="loading">
+				<strong>La pagina &egrave; in caricamento...<div class="jaf-loading-bar thin" style="max-width: 300px;display: inline-block;"></div></strong>
+			</div>
+		</td>
+		<td class="jaf-text-align-center info-DB" >
+			
+        </td>
+        <td class="jaf-text-align-right info-utente" >
+            
+        </td>
+	</tr>
+</table>
+				
+
+
+
+
+	
+
+<div id="policontext">
+	<nav class='nomeApp policontext-link' style="float: left; margin: auto 1em;" >
+		
+
+
+
+	
+
+
+
+ 
+
+
+
+	
+			
+     		
+     			Accedi a
+   				<span class="nome_app_bold">BeeP (Be e-Poli) -  il portale a supporto delle attività in rete di docenti e studenti del Politecnico di Milano</span>
+   			
+		
+ 
+	</nav>
+	<div class="policontext-link">
+		<nav>
+			
+				
+
+	
+
+
+
+
+
+
+
+
+	
+	
+        <a href="/aunicalogin/aunicalogin/controller/IdentificazioneUnica.do?evn_jaf_cambio_lingua=event&lang=EN&screenName=/IdentificazioneUnica&freezecount=true&jaf_currentWFID=main&polij_step=0&__pj0=0&__pj1=7344ee38b036c7f139de3af92f856902" title="English"><img src="//webcommons.polimi.it/webcommons/assets/english.gif" alt="English" title="English" /></a>
+    
+
+			
+		</nav>
+	</div>
+	<div class="jaf-float-clear" ></div>
+</div>
+			</div>			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+<table style="border-spacing: 0;border-collapse: collapse;" class="TablePage">
+<tr class="TrPage">
+<script type='text/javascript'>var jaf_js_LANG = 'IT';</script>
+
+	<td class="LeftBar"></td>
+	<td class="CenterBar">
+ 
+
+
+
+
+
+<div id="container-avvisi">
+	
+
+
+
+
+
+
+	
+	
+	<div class="Message WarningMessage avvisi"><table style="border-spacing: 0;border-collapse: collapse;" class="BodyInfoCard">
+<tr>
+
+<td class="TitleInfoCard">Avvisi</td>
+</TR>
+</TABLE>
+<TABLE  class="BoxInfoCard" style='border-spacing: 0;border-collapse: collapse;'>
+<tr><td class="jaf-ico-message jaf-card-element"><span class="jaf-ico-message-warning jaf-message-icon"></span></td><td class="jaf-message jaf-card-element">
+		
+			<div class="avviso">
+			       <div class="avvisi-icona"><span class="jaf-ico-message-warning" role="presentation"></span></div>
+			       <div class="avvisi-testo">
+			             <b>Cambio password: nuova modalità</b>
+			             <p>La modifica della password dovr&agrave; essere effettuata tramite il link &ldquo;Cambio password&rdquo;, attivato nel widget Autenticazione del Portale dei Servizi Online ed in precedenza disponibile sulla form di login ai servizi.</p>
+			       </div>
+			</div>
+		
+	</td></tr></TABLE>
+</div>	
+
+</div>
+
+
+
+		
+		<br>
+		 
+			
+
+			
+				
+				
+				
+			
+		<div id="tab62699" class="tabs polij_tabs" >
+<ul><li><span id='auth-polimi-help'> </span><a href='#auth-polimi' ><span style="font-size: 14px; display: inline-block;">POLIMI</span></a></li><li><span id='auth-spid-help'> </span><a href='#auth-spid' ><img src="/aunicalogin/assets/img/spid-logo-c-lb-small.png" style="max-height: 15px;" alt="Entra con SPID"/></a></li></ul><div id="auth-polimi">
+				<form method="post" name="" action="/aunicalogin/aunicalogin/controller/IdentificazioneUnica.do?&jaf_currentWFID=main&polij_step=0&__pj0=0&__pj1=fd69fcc93d90938c54a0c75d0d56282e" class="jaf-form jaf-desktop-form">
+						<TABLE  id="table-credenziali"  class="BoxInfoCard" style='border-spacing: 0;border-collapse: collapse;'>
+
+							
+								<tr>
+									<td colspan="1" rowspan="1" style="width: 30%" class="ElementInfoCard1 jaf-card-element">Accedi a</td>
+									<td colspan="1" rowspan="1" style="width: 70%" class="ElementInfoCard2 jaf-card-element">
+
+
+
+
+
+
+	BeeP (Be e-Poli) -  il portale a supporto delle attività in rete di docenti e studenti del Politecnico di Milano
+
+</td>
+								</tr>
+									
+							<tr>
+								<td colspan="1" rowspan="1" class="ElementInfoCard1 jaf-card-element"><label for="login">Codice Persona</label></td>
+								<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element"><input name="login" id="login" placeholder="Codice Persona" autofocus="autofocus" type="text" value="" class="jaf-full-width" /></td>
+							</tr>
+		 					<tr>
+								<td colspan="1" rowspan="1" class="ElementInfoCard1 jaf-card-element"><label for="password">Password</label></td>
+								<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element"><input name="password" id="password" placeholder="Password" type="password" class="jaf-full-width jaf-form-input" /></td>
+							</tr>
+							
+								
+									<tr>
+										<td colspan="1" rowspan="1" class="ElementInfoCard1 jaf-card-element"><label for="RESTA_CONNESSO">Resta connesso</label></td>
+										<td colspan="2" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											<label class="jaf-label "><input name="RESTA_CONNESSO" id="RESTA_CONNESSO" type="checkbox" value="-2147483648" class="jaf-form-input" />
+											Mantiene attiva la sessione per l'intera giornata
+											</label>
+											<noscript>
+												<div id="msg_resta_connesso_noscript" class="s_resta_connesso">Questa funzionalità permette di mantenere attiva la sessione di lavoro per l'intera giornata anche in caso di chiusura del browser.
+<br><font color="RED"><b>Attivare questa funzionalità solo se la postazione di lavoro è personale e non condivisa con altri utenti.</b></font>
+</div>
+											</noscript>
+											<div id="msg_resta_connesso" class="s_resta_connesso" style="display:none">Questa funzionalità permette di mantenere attiva la sessione di lavoro per l'intera giornata anche in caso di chiusura del browser.
+<br><font color="RED"><b>Attivare questa funzionalità solo se la postazione di lavoro è personale e non condivisa con altri utenti.</b></font>
+</div>
+										</td>
+									</tr>
+								
+							
+						</TABLE>
+<script type='text/javascript'>
+$("#table-credenziali").infocard({"initiallyOpen":true})</script> 
+
+						<br>
+						
+<button name="evn_conferma" type="submit" class="btn-lg btn-primary jaf-btn-big">Accedi</button>
+						<br><br>
+						
+							
+
+
+
+
+
+
+
+
+	 
+	
+	
+	
+
+
+	<TABLE  class="BoxInfoCard" style='border-spacing: 0;border-collapse: collapse;'>
+
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 99%" class="ElementInfoCard2 jaf-card-element">
+				Problemi di accesso?
+				
+					
+					
+				<a href="/aunicalogin/aunicalogin/controller/IdentificazioneUnica.do?evn_assistenza_autenticazione=evento&jaf_currentWFID=main" class="Link">Assistenza autenticazione</a>
+			</td>
+		</tr>
+		
+		 		
+			<tr>
+				<td colspan="1" rowspan="1" style="width: 99%" class="ElementInfoCard2 jaf-card-element">				
+					Nuovo utente? 
+					
+						
+						
+ 						
+					<a data-jaf-popup-width="730px" data-jaf-popup-to="true" data-jaf-popup-navigate="false" data-jaf-popup-resizable="false" href="/aunicalogin/aunicalogin/controller/IdentificazioneUnica.do?evn_registrati=evento&jaf_currentWFID=main" id="link_pop_reg" title="Registrazione al Politecnico di Milano" class="Link jaf_popup" data-jaf-popup-height="675">Registrati</a>					
+				</td>
+			</tr>
+		
+	</TABLE>
+
+
+
+
+
+
+
+	
+
+
+
+						
+				</form>
+			</div><noscript><br><br></noscript><div id="auth-spid">
+					
+
+
+<TABLE  class="BoxInfoCard spid-login-card" style='border-spacing: 0;border-collapse: collapse;'>
+
+	<tr>
+		<td colspan="1" rowspan="1" style="width: 50%" class="ElementInfoCard2 spid-card-info jaf-card-element">
+			
+			<p>SPID è il sistema di accesso che consente di utilizzare, con un'identità digitale unica, i servizi online della Pubblica Amministrazione e dei privati accreditati.
+<br />
+Se sei già in possesso di un'identità digitale SPID di livello 2, puoi utilizzarla per accedere ai servizi online del Politecnico: scegli "Entra con SPID" ed inserisci le credenziali assegnate dal tuo gestore.</p>	
+		</td>
+		<td colspan="1" rowspan="1" class="ElementInfoCard2 spid-card-buttons jaf-card-element">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+<a href="#" class="italia-it-button italia-it-button-size-m button-spid" data-spid-idp-button="#spid-idp-button-small-get" aria-haspopup="true" aria-expanded="false">
+	<span class="italia-it-button-icon"><img src="/aunicalogin/assets/img/spid-ico-circle-bb.svg" onerror="this.src='/aunicalogin/assets/img/spid-ico-circle-bb.png'; this.onerror=null;" alt="" /></span>
+	<span class="italia-it-button-text">Entra con SPID</span>
+</a>
+<div id="spid-idp-button-small-get" class="spid-idp-button spid-idp-button-tip spid-idp-button-relative">
+    <ul id="spid-idp-list-small-root-get" class="spid-idp-button-menu" aria-labelledby="spid-idp">
+        <li class="spid-idp-button-link"  data-idp="infocertid">
+    	     <a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1202&jaf_currentWFID=main">
+      			<span class="spid-sr-only">Infocert ID</span>
+      			<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-infocertid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-infocertid.png'; this.onerror=null;" alt="Infocert ID" />
+     		</a>
+  		</li>
+  		<li class="spid-idp-button-link"  data-idp="posteid">
+      		<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1201&jaf_currentWFID=main">
+      			<span class="spid-sr-only">Poste ID</span>
+      			<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-posteid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-posteid.png'; this.onerror=null;" alt="Poste ID" />
+     		</a>
+  		</li>
+  		<li class="spid-idp-button-link"  data-idp="timid">
+      		<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1200&jaf_currentWFID=main" target="">
+      			<span class="spid-sr-only">Tim ID</span>
+      			<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-timid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-timid.png'; this.onerror=null;" alt="Tim ID" />
+     		</a>
+  		</li>			        
+  		<li class="spid-idp-button-link"  data-idp="sielteid">
+      		<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1234&jaf_currentWFID=main" target="">
+      			<span class="spid-sr-only">Sielte ID</span>
+      			<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-sielteid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-sielteid.png'; this.onerror=null;" alt="Sielte ID" />
+     		</a>
+  		</li>
+   		<li class="spid-idp-button-link"  data-idp="arubaid">
+      		<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1298&jaf_currentWFID=main" target="">
+      			<span class="spid-sr-only">Aruba ID</span>
+      			<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-arubaid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-arubaid.png'; this.onerror=null;" alt="Aruba ID" />
+      		</a>
+   		</li>
+		<li class="spid-idp-button-link"  data-idp="namirialid">
+			<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1433&jaf_currentWFID=main" target="">
+				<span class="spid-sr-only">Namirial ID</span>
+				<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-namirialid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-namirialid.png'; this.onerror=null;" alt="Namirial ID" />
+			</a>
+		</li>
+		<li class="spid-idp-button-link"  data-idp="spiditalia">
+			<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1434&jaf_currentWFID=main" target="">
+				<span class="spid-sr-only">Register ID</span>
+				<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-spiditalia.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-spiditalia.png'; this.onerror=null;" alt="Register ID" />
+			</a>
+		</li>
+		<li class="spid-idp-button-link" data-idp="intesaid">
+			<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1494&jaf_currentWFID=main">
+				<span class="spid-sr-only">Intesa ID</span>
+				<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-intesaid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-intesaid.png'; this.onerror=null;" alt="Intesa ID" />
+			</a>
+		</li>
+		<li class="spid-idp-button-link" data-idp="lepidaid">
+			<a href="/aunicalogin/aunicalogin/spid/IngressoSPID.do?login=true&id_idp=1604&jaf_currentWFID=main">
+				<span class="spid-sr-only">Lepida ID</span>
+				<img class="spid-idp-button-logo" src="/aunicalogin/assets/img/spid-idp-lepidaid.svg" onerror="this.src='/aunicalogin/assets/img/spid-idp-lepidaid.png'; this.onerror=null;" alt="Lepida ID" />
+			</a>
+		</li>							
+	</ul>
+</div>
+<script type="text/javascript" src="/aunicalogin/assets/js/spid-sp-access-button.min.js"></script>	
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="2" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+			
+				
+				
+			<a href="http://www.spid.gov.it/" class="spid-link btn" target="_blank">Maggiori informazioni</a>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+			
+				
+				
+			<a href="http://www.spid.gov.it/richiedi-spid" class="spid-link btn" target="_blank">Richiedi un'identità digitale SPID</a>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+			
+				
+				
+			<a href="http://www.ictservices.polimi.it/spid-al-politecnico/" class="spid-link btn" target="_blank">SPID al Politecnico</a>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2" rowspan="1" class="jaf-text-align-center ElementInfoCard2 jaf-card-element">
+			<img src="/aunicalogin/assets/img/spid-agid-logo-lb-small.png" alt="Agid/Spid logo" class="spid-agid-logo" />
+		</td>
+	</tr>
+</TABLE>
+
+				</div><noscript><br><br></noscript></div>
+<SCRIPT type="text/javascript">
+	$(document).ready(function () {
+		$('#tab62699').tabs({
+				dummy: 0});
+		jaf_tabsactivate('tab62699');
+	});
+</SCRIPT>
+
+		
+		<script type="text/javascript">
+			$("#RESTA_CONNESSO").on('click', function() {
+				if (this.checked)
+				{
+					document.getElementById('msg_resta_connesso').style.display="block";
+				}
+				else
+				{
+					document.getElementById('msg_resta_connesso').style.display="none";
+				}
+			});
+		</script>
+	</td>
+	<td class="RightBar"></td>
+</tr></table>
+			
+
+
+    
+		
+		
+		
+	
+
+
+<table class="polifooter">
+	<tfoot class="tfoot-tablePage">
+    	<tr>
+    		<td >
+    			<div class="jaf-text-align-left">
+	   				 
+	   				  v. 15.0.1 / 15.0.1
+	   			</div>
+    		</td>
+    		<td>
+    			<div class="jaf-text-align-center">
+					Area Servizi ICT
+    			</div>
+    		</td>
+    		<td>
+    			<div class="jaf-text-align-right" id="div-tfoot-tablePage-centerBar">
+    				
+    			</div>
+    		</td>
+	   	</tr>
+    </tfoot>
+</table>
+		</div>
+		
+
+
+
+	</body>
+</html>
+	 
+
